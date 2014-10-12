@@ -1,0 +1,21 @@
+{
+    "name": "p2r",
+    "version": "0.1.0",
+    "description": "get path relative to project dir",
+    "main": "lib.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yangsibai/node-path-2-root.git"
+    },
+    "keywords": [
+        "path",
+        "project",
+        "root",
+        "require"
+    ],
+    "author": "yangsibai",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/yangsibai/node-path-2-root/issues"
+    }
+}

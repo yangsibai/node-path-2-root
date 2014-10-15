@@ -2,6 +2,8 @@
 
 get path to project root
 
+[![NPM](https://nodei.co/npm/p2r.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/p2r/)
+
 ###Install
 
     npm install p2r
@@ -17,4 +19,9 @@ Instead:
 With:
 
     var p2r = require('p2r');
-    var lib = require(p2r._('config.js'));
+    var lib = require(p2r.path('config.js'));
+    
+Or:    
+
+    var p2r = require('p2r');
+    var lib = p2r.require('config.js');

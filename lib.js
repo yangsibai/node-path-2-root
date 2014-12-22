@@ -16,3 +16,5 @@ exports._ = function(name){
 exports.require = function(name){
     return require(_getPath(name))
 };
+
+exports.path = _getPath;

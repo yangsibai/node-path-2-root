@@ -7,6 +7,8 @@ get path to project root
 ###Install
 
     npm install p2r
+
+*Note: you must not install this package globally!*
     
 ###Example
 
